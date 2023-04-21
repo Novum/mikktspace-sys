@@ -4,6 +4,8 @@
 
 Wrapper around the original C reference implementation ([Mikkelsen Tangent Space Algorithm](https://en.blender.org/index.php/Dev:Shading/Tangent_Space_Normal_Maps)).
 
+The reason for this crate is that for practical applications the output must match the C reference implementation exactly. The Rust mikktspace crate is probably producing identical output in all cases, but I didn't want to take any chances.
+
 ## Examples
 
 ### generate
