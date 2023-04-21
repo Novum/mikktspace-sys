@@ -1,0 +1,9 @@
+[package]
+name = "mikktspace-sys"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+build = "build.rs"
+
+[build-dependencies]
+cc = "1.0"
