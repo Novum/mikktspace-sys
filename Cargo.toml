@@ -1,7 +1,12 @@
 [package]
 name = "mikktspace-sys"
+authors = ["Axel Gneiting <axelgneiting@gmail.com>"]
+description = "Mikkelsen tangent space algorithm (C wrapper)"
+repository = "https://github.com/Novum/mikktspace-sys"
+homepage = "https://github.com/Novum/mikktspace-sys"
 version = "0.1.0"
-edition = "2021"
+edition = "2018"
+keywords = ["3D", "graphics", "algorithm", "tangent"]
 license = "MIT"
 build = "build.rs"
 
